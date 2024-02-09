@@ -26,7 +26,7 @@ truncate table public.customers ; --query for deleting data from data table
 --create cusutmer with all fields
 insert into customers(Profile_name,Email,Phone,Age,Gdpr_consent,is_custumer_profile_active,profile_created_at,profile_deactivated,
 reason_for_deactivation,notes) values 
-('Georgi','georgi.raychev@abv.bg','0889345678',22,true,true,CURRENT_TIMESTAMP,null,null,'Notes for the profile');
+('Tsvetomir,cvetomir_318@abv.bg','0897227535',22,true,true,CURRENT_TIMESTAMP,null,null,'Notes for the profile');
 
 --create custumer only with mandatory fields
 insert into customers (Profile_name,email,phone,gdpr_consent,is_custumer_profile_active,profile_created_at) values
